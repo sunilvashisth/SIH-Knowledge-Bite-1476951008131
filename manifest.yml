@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: SIH Knowledge Bite
+  host: sih-knowledge-bite
+  disk_quota: 1024M
+  services:
+  - SIH Knowledge Bite-AdvancedMobileAccess
+  - SIH Knowledge Bite-imfpush
+  - SIH Knowledge Bite-cloudantNoSQLDB
